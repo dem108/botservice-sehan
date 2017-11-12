@@ -36,7 +36,7 @@ namespace Microsoft.Bot.Sample.FormBot
         public LengthOptions? Length;
         public BreadOptions? Bread;
         public CheeseOptions? Cheese;
-        public List<ToppingOptions> ToppingsTEST;
+        public List<ToppingOptions> Toppings;
         public List<SauceOptions> Sauce;
 
         public static IForm<SandwichOrder> BuildForm()
